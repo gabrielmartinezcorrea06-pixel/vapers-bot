@@ -103,7 +103,7 @@ def _extraer_sabor(texto: str) -> tuple[Optional[str], int, Optional[str]]:
     if resultado is None:
         return None, 0, None
 
-    sabor, score, _ = resultado
+    sabor, score = resultado
     if score >= UMBRAL_FUZZY:
         return sabor, int(score), None
     return None, int(score), sabor
