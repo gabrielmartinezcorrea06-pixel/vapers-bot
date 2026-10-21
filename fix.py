@@ -1,0 +1,7 @@
+f=open('excel_manager.py','r',encoding='utf-8') 
+lines=f.readlines() 
+f.close() 
+f=open('excel_manager.py','w',encoding='utf-8') 
+f.writelines(lines) 
+f.close() 
+print('Listo') 

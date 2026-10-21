@@ -1,0 +1,244 @@
+2026-05-06 00:06:58,713 [INFO] excel_manager: Excel inicial creado en ventas_vapers.xlsx
+2026-05-06 00:06:59,008 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:07:01,952 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:10:26,282 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 00:10:26,282 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 00:10:39,453 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:10:39,698 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:18:00,963 [INFO] excel_manager: Venta registrada: 1x lemon lime (efectivo) = 5.00€
+2026-05-06 00:23:38,479 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 00:23:38,480 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 00:25:44,087 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:25:44,332 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:26:27,304 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 5.00€
+2026-05-06 00:27:51,715 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 00:27:51,715 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 00:31:42,090 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:31:42,334 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:34:20,754 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:34:21,005 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:34:36,863 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 5.00€
+2026-05-06 00:36:10,641 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:36:10,881 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:36:24,768 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 00:36:24,768 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 00:40:11,341 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:40:11,561 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:40:28,779 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 13.00€
+2026-05-06 00:42:56,445 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 00:42:56,445 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 00:44:04,883 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:44:05,156 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:44:14,405 [ERROR] vapers-bot: Permiso denegado al escribir Excel
+Traceback (most recent call last):
+  File "C:\vapers-bot\bot.py", line 258, in msg_libre
+    excel.registrar_venta(venta)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 90, in registrar_venta
+    self._guardar_atomico(wb)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\vapers-bot\excel_manager.py", line 47, in _guardar_atomico
+    os.replace(tmp_path, self.ruta)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Acceso denegado: 'C:\\vapers-bot\\ventas_yk3i5dd4.tmp' -> 'ventas_vapers.xlsx'
+2026-05-06 00:44:21,613 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 13.00€
+2026-05-06 00:45:56,427 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 00:45:56,427 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 00:47:14,515 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:47:14,723 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:47:21,254 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 13.00€
+2026-05-06 00:47:27,765 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 00:47:27,765 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 00:50:00,740 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:50:00,958 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:52:21,944 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 00:52:22,168 [INFO] telegram.ext.Application: Application started
+2026-05-06 00:52:43,726 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 13.00€
+2026-05-06 00:54:55,548 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 13.00€
+2026-05-06 23:52:05,386 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 23:52:05,660 [INFO] telegram.ext.Application: Application started
+2026-05-06 23:52:21,702 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 13.00€
+2026-05-06 23:52:31,100 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 23:52:31,101 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 23:53:06,339 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 23:53:06,599 [INFO] telegram.ext.Application: Application started
+2026-05-06 23:53:26,098 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 23:53:26,098 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-06 23:54:04,885 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-06 23:54:05,152 [INFO] telegram.ext.Application: Application started
+2026-05-06 23:54:21,211 [INFO] excel_manager: Venta registrada: 1x lemon lime (efectivo) = 13.00€
+2026-05-06 23:54:26,361 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-06 23:54:26,361 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-07 00:06:03,351 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 00:06:03,643 [INFO] telegram.ext.Application: Application started
+2026-05-07 00:06:15,224 [INFO] excel_manager: Venta registrada: 1x sex on the beach (efectivo) = 13.00€
+2026-05-07 00:06:33,741 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-07 00:06:33,741 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-07 00:29:16,313 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 00:29:16,578 [INFO] telegram.ext.Application: Application started
+2026-05-07 00:29:49,032 [INFO] excel_manager: Venta registrada: 1x lemon lime (efectivo) = 13.00€
+2026-05-07 00:31:34,561 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-07 00:31:34,561 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-07 00:35:09,001 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 00:35:09,267 [INFO] telegram.ext.Application: Application started
+2026-05-07 00:35:23,909 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 00:35:23,909 [ERROR] vapers-bot: Excepción en handler
+Traceback (most recent call last):
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\vapers-bot\bot.py", line 271, in msg_libre
+    resumen = excel.resumen_hoy()
+  File "C:\vapers-bot\excel_manager.py", line 72, in resumen_hoy
+    return self.resumen_periodo(hoy, hoy)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 57, in resumen_periodo
+    total = round(sum(v.total for v in ventas), 2)
+                                       ^^^^^^
+NameError: name 'ventas' is not defined. Did you mean: 'Venta'?
+2026-05-07 00:35:36,544 [INFO] excel_manager: Venta: 1x sex on the beach = 13.00
+2026-05-07 00:35:36,544 [ERROR] vapers-bot: Excepción en handler
+Traceback (most recent call last):
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\vapers-bot\bot.py", line 271, in msg_libre
+    resumen = excel.resumen_hoy()
+  File "C:\vapers-bot\excel_manager.py", line 72, in resumen_hoy
+    return self.resumen_periodo(hoy, hoy)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 57, in resumen_periodo
+    total = round(sum(v.total for v in ventas), 2)
+                                       ^^^^^^
+NameError: name 'ventas' is not defined. Did you mean: 'Venta'?
+2026-05-07 00:39:27,247 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 00:39:27,513 [INFO] telegram.ext.Application: Application started
+2026-05-07 00:39:45,312 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 00:39:45,313 [ERROR] vapers-bot: Excepción en handler
+Traceback (most recent call last):
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\vapers-bot\bot.py", line 271, in msg_libre
+    resumen = excel.resumen_hoy()
+  File "C:\vapers-bot\excel_manager.py", line 72, in resumen_hoy
+    return self.resumen_periodo(hoy, hoy)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 57, in resumen_periodo
+    total = round(sum(v.total for v in ventas), 2)
+                                       ^^^^^^
+NameError: name 'ventas' is not defined. Did you mean: 'Venta'?
+2026-05-07 00:39:59,852 [ERROR] vapers-bot: Excepción en handler
+Traceback (most recent call last):
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\vapers-bot\bot.py", line 150, in cmd_hoy
+    resumen = excel.resumen_hoy()
+  File "C:\vapers-bot\excel_manager.py", line 72, in resumen_hoy
+    return self.resumen_periodo(hoy, hoy)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 57, in resumen_periodo
+    total = round(sum(v.total for v in ventas), 2)
+                                       ^^^^^^
+NameError: name 'ventas' is not defined. Did you mean: 'Venta'?
+2026-05-07 00:40:47,713 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-07 00:40:47,713 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-07 00:41:46,397 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 00:41:46,630 [INFO] telegram.ext.Application: Application started
+2026-05-07 00:41:55,591 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 00:41:55,592 [ERROR] vapers-bot: Excepción en handler
+Traceback (most recent call last):
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\vapers-bot\bot.py", line 271, in msg_libre
+    resumen = excel.resumen_hoy()
+  File "C:\vapers-bot\excel_manager.py", line 72, in resumen_hoy
+    return self.resumen_periodo(hoy, hoy)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 57, in resumen_periodo
+    total = round(sum(v.total for v in ventas), 2)
+                                       ^^^^^^
+NameError: name 'ventas' is not defined. Did you mean: 'Venta'?
+2026-05-07 00:42:10,309 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-07 00:42:10,309 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-07 21:22:09,005 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 21:22:09,238 [INFO] telegram.ext.Application: Application started
+2026-05-07 21:22:19,645 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 21:22:19,645 [ERROR] vapers-bot: Excepción en handler
+Traceback (most recent call last):
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\vapers-bot\bot.py", line 271, in msg_libre
+    resumen = excel.resumen_hoy()
+  File "C:\vapers-bot\excel_manager.py", line 72, in resumen_hoy
+    return self.resumen_periodo(hoy, hoy)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 57, in resumen_periodo
+    total = round(sum(v.total for v in ventas), 2)
+                                       ^^^^^^
+NameError: name 'ventas' is not defined. Did you mean: 'Venta'?
+2026-05-07 21:22:54,256 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-07 21:22:54,257 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-07 21:23:33,265 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 21:23:33,456 [INFO] telegram.ext.Application: Application started
+2026-05-07 21:23:40,253 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 21:23:40,253 [ERROR] vapers-bot: Excepción en handler
+Traceback (most recent call last):
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\vapers-bot\bot.py", line 271, in msg_libre
+    resumen = excel.resumen_hoy()
+  File "C:\vapers-bot\excel_manager.py", line 73, in resumen_hoy
+    return self.resumen_periodo(hoy, hoy)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 57, in resumen_periodo
+    total = round(sum(v.total for v in ventas), 2)
+                                       ^^^^^^
+UnboundLocalError: cannot access local variable 'ventas' where it is not associated with a value
+2026-05-07 21:23:58,217 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-07 21:23:58,217 [INFO] telegram.ext.Application: Application.stop() complete
+2026-05-07 21:25:24,743 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 21:25:24,973 [INFO] telegram.ext.Application: Application started
+2026-05-07 21:25:31,218 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 21:25:31,951 [ERROR] vapers-bot: Excepción en handler
+Traceback (most recent call last):
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "C:\Users\gabri\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\vapers-bot\bot.py", line 271, in msg_libre
+    resumen = excel.resumen_hoy()
+  File "C:\vapers-bot\excel_manager.py", line 72, in resumen_hoy
+    return self.resumen_periodo(hoy, hoy)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\vapers-bot\excel_manager.py", line 69, in resumen_periodo
+    return {"total": total, "unidades": unidades, "por_sabor": por_sabor, "por_pago": por_pago, "n_ventas": len(ventas)}
+                                        ^^^^^^^^
+NameError: name 'unidades' is not defined
+2026-05-07 21:36:31,279 [INFO] vapers-bot: Bot arrancando. Excel en ventas_vapers.xlsx
+2026-05-07 21:36:31,522 [INFO] telegram.ext.Application: Application started
+2026-05-07 21:36:40,492 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 21:37:30,709 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 21:41:55,765 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 22:03:54,067 [INFO] excel_manager: Venta: 1x lemon lime = 13.00
+2026-05-07 22:08:24,666 [INFO] telegram.ext.Application: Application is stopping. This might take a moment.
+2026-05-07 22:08:24,666 [INFO] telegram.ext.Application: Application.stop() complete
