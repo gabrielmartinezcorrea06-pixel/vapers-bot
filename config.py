@@ -12,6 +12,10 @@ SABORES = [
     "watermelon ice",
     "sex on the beach",
     "monster mango",
+    "melon pineapple banana",
+    "coco loco",
+    "happy ranch",
+    "piña colada"
 ]
 
 # Precio unitario por defecto en euros. Se puede sobrescribir desde la hoja "Catálogo" del Excel.
